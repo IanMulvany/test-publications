@@ -1,0 +1,118 @@
+{
+  "id": "a79421e212cb5ed9896468bd8b23b8ae",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "a79421e212cb5ed9896468bd8b23b8ae",
+      "creator": "",
+      "title": "A little bit about climbing. ",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-02-22T22:53:03.654Z",
+      "published_on": "2014-02-22T22:56:04.253Z",
+      "updated_at": "2014-02-22T22:56:04.253Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": [
+        "figure_4af7eefeda3ff1cdd4b42cb753c34357"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "The climber is an interesting character, and one that should be treated with a slight amount of irreverence. Those that beomce too serious should by all means be treated with no little disdain. "
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "Ian Mulvany",
+      "role": "author",
+      "organization": "climber",
+      "image": "",
+      "email": "me@example.com"
+    },
+    "publish_settings.json": {
+      "type": "file",
+      "id": "publish_settings.json",
+      "version": 1,
+      "content_type": "application/json"
+    },
+    "text_4f23c3292df89d8c61364a0e95cb6440": {
+      "type": "text",
+      "id": "text_4f23c3292df89d8c61364a0e95cb6440",
+      "source_id": "",
+      "content": "me thinking about me next climb"
+    },
+    "figure_4af7eefeda3ff1cdd4b42cb753c34357": {
+      "type": "figure",
+      "id": "figure_4af7eefeda3ff1cdd4b42cb753c34357",
+      "image": "figure_4af7eefeda3ff1cdd4b42cb753c34357.png",
+      "image_url": "",
+      "label": "The climber",
+      "caption": "text_4f23c3292df89d8c61364a0e95cb6440"
+    },
+    "figure_4af7eefeda3ff1cdd4b42cb753c34357.png": {
+      "type": "file",
+      "id": "figure_4af7eefeda3ff1cdd4b42cb753c34357.png",
+      "version": 1,
+      "content_type": "image/png"
+    },
+    "figure_reference_10ccedca5ca26977994b4fef736fcac9": {
+      "type": "figure_reference",
+      "id": "figure_reference_10ccedca5ca26977994b4fef736fcac9",
+      "path": [
+        "text1",
+        "content"
+      ],
+      "range": [
+        4,
+        11
+      ],
+      "target": "figure_4af7eefeda3ff1cdd4b42cb753c34357"
+    }
+  }
+}
